@@ -12,7 +12,7 @@ driver = webdriver.Edge(options=options)
 try:
     # --- PHASE 0: GET USER DATA ---
     print("\n" + "="*50)
-    print("🎓 BMU ATTENDANCE & BUNK TRACKER 🎓")
+    print("🎓 BMU ATTENDANCE TRACKER 🎓")
     print("="*50)
     user_email = input("Enter your BMU Email: ")
     # getpass hides the typing automatically so passwords aren't visible on screen
